@@ -11,7 +11,7 @@ try {
     core.getInput('working-directory', {
       required: false,
       trimWhitespace: true,
-    }) ?? '';
+    }) || '';
   var fields = field.split('.');
   var str = fs.readFileSync(path.join(workingDirectory, file));
   var parsed = toml.parse(str);
