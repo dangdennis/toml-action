@@ -1,4 +1,4 @@
-name: 'TOML Reader'
+name: 'dangdennis/toml-reader'
 description: 'Read a specific field from a TOML file'
 branding:
   icon: file-text
