@@ -10,6 +10,9 @@ inputs:
   field:
     description: 'The field inside the TOML file to read'
     required: true
+  working-directory:
+    description: 'The working directory where the TOML file resides'
+    required: false
 outputs:
   value:
     description: 'The data stored in `field` inside `file`'
